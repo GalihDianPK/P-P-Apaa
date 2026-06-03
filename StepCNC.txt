@@ -1,0 +1,3 @@
+Cut out kuning edge cut ( terakhir), bor atau nh tp warna pelangi, biru jalur atau b. Cu
+
+B.Cu -> Drill (NPTH) -> Edge cuts

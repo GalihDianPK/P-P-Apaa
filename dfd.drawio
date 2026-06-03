@@ -1,0 +1,161 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7">
+  <diagram name="Page-1" id="IAGP1RfVJALSLD5LXflD">
+    <mxGraphModel dx="2096" dy="684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-2" value="User (Web UI)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="355" width="95" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-3" value="Proses Sensor di Wemos D1 R32 dan logika" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="52" y="340" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-4" value="Pompa &amp;amp; Kipas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-8" y="450" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-5" value="Output Aktuator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="102" y="450" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-6" value="Thingspeak (cloud)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104.5" y="300" width="107.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-3" target="jdEpDi2qeSR04FCuHc1G-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="12" y="300" as="sourcePoint" />
+            <mxPoint x="62" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="158" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="148" y="385" as="sourcePoint" />
+            <mxPoint x="158" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="158" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-12" value="User (Via Web UI)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="507.5" y="150" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-14" value="(1) Web Interface (LittleFS)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-15" value="LittleFS Files" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="512.5" y="350" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-16" value="" style="endArrow=none;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="292.5" y="350" as="sourcePoint" />
+            <mxPoint x="587.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-17" value="" style="endArrow=none;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="592.5" y="370" as="sourcePoint" />
+            <mxPoint x="537.5" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-12" target="jdEpDi2qeSR04FCuHc1G-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="407.5" y="270" as="sourcePoint" />
+            <mxPoint x="457.5" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-19" value="[1.1] HTTP Request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdEpDi2qeSR04FCuHc1G-18">
+          <mxGeometry y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-21" value="[1.2] HTTP Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="597.5" y="310" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-25" value="(2) Baca Soil Moisture dan DHT 21" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="520" y="440" width="85" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-15" target="jdEpDi2qeSR04FCuHc1G-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="487.5" y="480" as="sourcePoint" />
+            <mxPoint x="537.5" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-27" value="[2.1] Kelembapan Tanah, Suhu dan RH" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdEpDi2qeSR04FCuHc1G-26">
+          <mxGeometry x="-0.0445" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-28" value="(3) Relay" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="502.5" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-25" target="jdEpDi2qeSR04FCuHc1G-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="437.5" y="400" as="sourcePoint" />
+            <mxPoint x="487.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-30" value="[3.1] Status Pompa dan Kipas" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdEpDi2qeSR04FCuHc1G-29">
+          <mxGeometry x="-0.2706" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-31" value="(5) Kirim ke Thingspeak" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="522.5" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-28" target="jdEpDi2qeSR04FCuHc1G-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="517.5" y="680" as="sourcePoint" />
+            <mxPoint x="567.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-33" value="[5.1] Kirim Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdEpDi2qeSR04FCuHc1G-32">
+          <mxGeometry x="-0.3176" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-34" value="Thingspeak Cloud Platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="780" width="165" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-31" target="jdEpDi2qeSR04FCuHc1G-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="517.5" y="680" as="sourcePoint" />
+            <mxPoint x="567.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-37" value="[5.2] HTTP POST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jdEpDi2qeSR04FCuHc1G-35">
+          <mxGeometry x="-0.5216" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.089;entryY=0.222;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-2" target="jdEpDi2qeSR04FCuHc1G-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="50" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.032;exitY=0.402;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-3" target="jdEpDi2qeSR04FCuHc1G-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="100" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-40" value="HTTP Reques / Response" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-35" y="330" width="88" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-41" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.014;exitY=0.686;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-3" target="jdEpDi2qeSR04FCuHc1G-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="360" as="sourcePoint" />
+            <mxPoint x="100" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="37" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdEpDi2qeSR04FCuHc1G-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jdEpDi2qeSR04FCuHc1G-2" target="jdEpDi2qeSR04FCuHc1G-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
