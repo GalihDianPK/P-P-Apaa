@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #ffffff;
+}
+
+h1 {
+  color: #333;
+}
+
+.button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+}
+
+.on {
+  background-color: #28a745;
+}
+
+.off {
+  background-color: #dc3545;
+}
+
+#gauge {
+  width: 80%;
+  margin: 20px auto;
+  height: 30px;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#gauge-fill {
+  height: 100%;
+  background-color: #007bff;
+  transition: width 0.5s;
+
+}
+
+#chart-container {
+  width: 90%;
+  max-width: 700px;
+  margin: 20px auto;
+}

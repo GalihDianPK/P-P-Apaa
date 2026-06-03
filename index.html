@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CUCUMBER AGROTECH MONITORING</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    canvas { display: block; margin: 20px auto; }
+  </style>
+</head>
+<body>
+  <h1>CUCUMBER AGROTECH MONITORING</h1>
+  <div>
+    <button class="button on" onclick="sendPump(1)">Pump On</button>
+    <button class="button on" onclick="sendFan(1)">Fan On</button>
+  </div>
+  <div>
+    <button class="button off" onclick="sendPump(0)">Pump Off</button>
+    <button class="button off" onclick="sendFan(0)">Fan Off</button>
+  </div>
+
+  <h2>Soil Moisture</h2>
+  <div>
+    <canvas id="radialGauge" width="300" height="150"></canvas>
+  </div>
+
+
+  <h2>Air Temperature & Humidity</h2>
+  <div id="chart-container">
+    <canvas id="lineChart" width="400" height="200"></canvas>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-gauge@4.0.2/dist/chartjs-chart-gauge.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
